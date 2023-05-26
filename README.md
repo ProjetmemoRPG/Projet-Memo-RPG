@@ -15,15 +15,15 @@ Votre mission, si toute fois vous l'accepter et de trouver l'artefacte corespond
 (PS : pour gagner, vous avez aussi besoin d'un Cofre au trésor, car l'expedition a couter pas mal d'argent et il faut remboursé vos dètes)
 
 il existe plusieur type d'artefacte:\nles artefactes légendaire : (vos objectifs)
-  E pour l'Epé de feux, récuperable par le(s) chevalier(s)
-  S pour le Stick de Familier, récuperable par le(s) Ranger(s)
+E pour l'Epé de feux, récuperable par le(s) chevalier(s)
+S pour le Stick de Familier, récuperable par le(s) Ranger(s)
   G pour le Grimoire magique, récupérable par le(s) mage(s)
   D pour la Dague de someil, récupérable par le(s) voleur(s)
   
 les artefactes du labyrinthe :
-  P pour le portail, qui permet de se déplacer n'importe ou.
-  t pour les totème SNCF, d'ancienne relique égarer par une entreprise sombre et obscure au sein de ce labyrinthe permetent d'inverser la position de 2 case (et vous avec)
-  C pour cofre au trésore, un des objet nécésaire a votre quète, parceque comme tout aventurier, vous aimer l'argent\n\n\n");
+P pour le portail, qui permet de se déplacer n'importe ou.
+t pour les totème SNCF, d'ancienne relique égarer par une entreprise sombre et obscure au sein de ce labyrinthe permetent d'inverser la position de 2 case (et vous avec)
+C pour cofre au trésore, un des objet nécésaire a votre quète, parceque comme tout aventurier, vous aimer l'argent\n\n\n");
 
 Néamoins, tout ces trésor sont garder par des monstre. 
 Vous avez pencer a vous équiper de tout le nécésaire pour les vaincre, mais chaque monstre a une faiblaisse particulière et vous ne pouvez porter qu'une arme en meme temps.
