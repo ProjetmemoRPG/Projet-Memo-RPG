@@ -130,45 +130,46 @@ void resetColor(){
 void rules(){
 	char c;
 
-  printf("╔═════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╗\n");
-    printf("║Voici les règle de ce jeux :                                                                                                                                                 ║\n");                                                     
-    printf("║Vous etes un aventurier a la recherche d'un artéfacte magique unique.                                                                                                        ║\n");
-    printf("║La carte que vous a donner votre arrière grand oncle par aliance vous a meuner a ce labyrinthe.                                                                              ║\n");
-    printf("║Maleureusement il semblerais que voitre famille sois plus grande qu'estimer car vous apercever d'autres personnes au diférentes entrées                                      ║\n");
-    printf("║Votre mission, si toute fois vous l'accepter et de trouver l'artefacte corespondent a votre classe (Ranger, Chevalier, Voleur ou Mage) avant les autres.                     ║\n");
-    printf("║(PS : pour gagner, vous avez aussi besoin d'un Cofre au trésor, car l'expedition a couter pas mal d'argent et il faut remboursé vos dètes                                    ║\n");
-    printf("║                                                                                                                                                                             ║\n");
-    printf("║                                                                                                                                                                             ║\n");
-    printf("║il existe plusieur type d'artefacte:                                                                                                                                         ║\n");
-    printf("║les artefactes légendaire : (vos objectifs)                                                                                                                                  ║\n");
-    printf("║E pour l'Epé de feux, récuperable par le(s) chevalier(s)                                                                                                                     ║\n");
-    printf("║S pour le Stick de Familier, récuperable par le(s) Ranger(s)                                                                                                                 ║\n");
-    printf("║G pour le Grimoire magique, récupérable par le(s) mage(s)                                                                                                                    ║\n");
-    printf("║D pour la Dague de someil, récupérable par le(s) voleur(s)                                                                                                                   ║\n");
-    printf("║                                                                                                                                                                             ║\n");
-    printf("║les artefactes du labyrinthe :                                                                                                                                               ║\n");
-    printf("║P pour le portail, qui permet de se déplacer n'importe ou.                                                                                                                   ║\n");
-    printf("║t pour les totème SNCF, d'ancienne relique égarer par une entreprise sombre et obscure au sein de ce labyrinthe permetent d'inverser la position de 2 case (et vous avec)    ║\n");
-    printf("║C pour cofre au trésore, un des objet nécésaire a votre quète, parceque comme tout aventurier, vous aimer l'argent                                                           ║\n");
-    printf("║                                                                                                                                                                             ║\n");
-    printf("║                                                                                                                                                                             ║\n");
-    printf("║Néamoins, tout ces trésor sont garder par des monstre.                                                                                                                       ║\n");
-    printf("║ Vous avez pencer a vous équiper de tout le nécésaire pour les vaincre, mais chaque monstre a une faiblaisse particulière et vous ne pouvez porter qu'une arme en meme temps.║\n");
-    printf("║Voici la liste des monstre :                                                                                                                                                 ║\n");
-    printf("║B pour les Basilic, au regard pétrifiant, pouvent etre batu par un bouclier réfléchissant                                                                                    ║\n");
-    printf("║Z pour les Zombie, mort vivant tres sensible au feux, pouvant etre vaincu avec une torche                                                                                    ║\n");
-    printf("║T pour les troll, de gros monstre a la peaux solide, pouvant etre vaincu par une hache de pière                                                                              ║\n");
-    printf("║H pour les harpies, des créature des enfer qu'il ne faux aprocher, pouvant etre vaincu par un arc                                                                            ║\n");
-    printf("║                                                                                                                                                                             ║\n");
-    printf("║                                                                                                                                                                             ║\n");
-    printf("║Vous pouvez jouer a 4 ou 2 joueurs                                                                                                                                           ║\n");
-    printf("║Vous pouvez choisir la meme race pour plus de compétition ou non                                                                                                             ║\n");
-    printf("║et également décider de ne pas regarder l'ecrant de vos adversaire ou non.                                                                                                   ║\n");
-    printf("║Bonne chance, avanturiers, que le meilleur gagne                                                                                                                             ║\n");
-    printf("║                                                                                                                                                                             ║\n");                                                                                                                     
-    printf("║appuyer sur n'importe quel touche pour continuer ou sur Q pour quitter                                                                                                       ║\n");                                                                                                
-    printf("╚═════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝\n");
-	printf("Appuyer sur n'importe quel touche pour continuer ou sur Q pour quitter \n");
+      printf("╔════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╗\n");
+printf("║¤Voici les règles de ce jeu¤  
+printf("║                                                                                                                                                                             ║\n");                                                                                                                                                                                           
+printf("║¤Vous êtes un aventurier à la recherche d'un artefact magique unique                                                                                                        ║\n");
+printf("║  La carte que vous a donnée votre arrière-grand-oncle par alliance vous a mené à ce labyrinthe                                                                           ║\n");
+printf("║  Malheureusement, il semblerait que votre famille soit plus grande qu'estimée car vous apercevez d'autres personnes à différentes entrées                                 ║\n");
+printf("║  Votre mission, si toutefois vous l'acceptez, est de trouver l'artefact correspondant à votre classe (Ranger, Chevalier, Voleur ou Mage) avant les autres                  ║\n");
+printf("║  (PS : pour gagner, vous avez aussi besoin d'un Coffre au trésor, car l'expédition a coûté pas mal d'argent et il faut rembourser vos dettes)                                    ║\n");
+printf("║                                                                                                                                                                             ║\n");
+printf("║                                                                                                                                                                             ║\n");
+printf("║¤Il existe plusieurs types d'artefacts : 
+printf("║                                                                                                                                                                             ║\n");                                                                                                                              
+printf("║  Les artefacts légendaires : (vos objectifs)                                                                                                                                  ║\n");
+printf("║  |E| pour l'Épée de feu, récupérable par le(s) chevalier(s)                                                                                                                     ║\n");
+printf("║  |S| pour le Bâton du familier, récupérable par le(s) ranger(s)                                                                                                                 ║\n");
+printf("║  |G| pour le Grimoire magique, récupérable par le(s) mage(s)                                                                                                                    ║\n");
+printf("║  |D| pour la Dague de sommeil, récupérable par le(s) voleur(s)                                                                                                                   ║\n");
+printf("║                                                                                                                                                                             ║\n");
+printf("║ Les artefacts du labyrinthe :      
+printf("║                                                                                                                                                                             ║\n");                                                                                                                                      
+printf("║ |P| pour le portail, qui permet de se déplacer n'importe où.                                                                                                                   ║\n");
+printf("║ |T| pour les totems SNCF, d'anciennes reliques égarées par une entreprise sombre et obscure au sein de ce labyrinthe permettant d'inverser la position de 2 cases (et vous avec)    ║\n");
+printf("║ |C| pour le coffre au trésor, l'un des objets nécessaires à votre quête, car comme tout aventurier, vous aimez l'argent                                                           ║\n");
+printf("║                                                                                                                                                                             ║\n");
+printf("║¤Néanmoins, tous ces trésors sont gardés par des monstres.                                                                                                                       ║\n");
+printf("║  Vous avez pensé à vous équiper de tout le nécessaire pour les vaincre, mais chaque monstre a une faiblesse particulière et vous ne pouvez porter qu'une arme à la fois.║\n");
+printf("║  Voici la liste des monstres :                                                                                                                                                 ║\n");
+printf("║  |B| pour les Basilics, au regard pétrifiant, pouvant être battus par un bouclier réfléchissant                                                                                    ║\n");
+printf("║  |Z| pour les Zombies, morts-vivants très sensibles au feu, pouvant être vaincus avec une torche                                                                                    ║\n");
+printf("║  |T| pour les trolls, de gros monstres à la peau solide, pouvant être vaincus par une hache de pierre                                                                              ║\n");
+printf("║  |H| pour les harpies, des créatures des enfers qu'il ne faut pas approcher, pouvant être vaincues par un arc                                                                            ║\n");
+printf("║                                                                                                                                                                             ║\n");
+printf("║                                                                                                                                                                             ║\n");
+printf("║¤Vous pouvez jouer à 2 ou 4 joueurs.                                                                                                                                           ║\n");
+printf("║¤Vous pouvez choisir la même classe pour plus de compétition.                                                                                                             ║\n");
+printf("║¤Vous pouvez ne pas regarder l'écran de vos adversaires.                                                                                                              ║\n");
+printf("║                                                                                                                                                                             ║\n");                                                                                            
+printf("║¤Bonne chance, aventuriers, que le meilleur gagne ¤                                                                                                                            ║\n");
+printf("║                                                                                                                                                                             ║\n");                                                                                                                                                                                                                 
+printf("╚═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝\n");printf("Appuyer sur n'importe quel touche pour continuer ou sur Q pour quitter \n");
 	scanfChar(&c);
 }
 	
