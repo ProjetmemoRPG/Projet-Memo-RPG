@@ -312,11 +312,18 @@ void game(){
         printf("%s, le joueur %d a gagner\n\n",listPlayer[i].name,i);
         printf("votre partie a duré %ld seconde.\n\n",gameTime);
         listPlayer[i].score++;
-      
+      	for(int i=0;i<LARG;i++){
+        	for (int j = 0;j<LARG;j++){
+			saveMap[i][j].reveal = 1;
+		}
+	}
         manageScores(listPlayer, nbPlayer);
-        
-	       displaysTenBscores();
+        printf("Carte Révélé : \n\n");
+	afichage(saveMap,listPlayer);
+	printf("\n\n");
+	displaysTenBscores();
         free_map(mainMap);
+	free_map(saveMap);
     }while(restart()==1);
 
     
