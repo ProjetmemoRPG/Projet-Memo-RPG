@@ -1,7 +1,7 @@
 gozzila 1
 Pacific_Rim 2
-mama 0
-ououou -1
+mama -1
+ououou -2
 CousCousSnow 20
 Shywo 18
 Transat 42
@@ -10,9 +10,3 @@ Athina_Chan 3
 Samy_ABT 35
 Starfoulax 10
 Nanachi 15
-tt 0
-ah 0
-tets 0
-c 0
-vav 0
-vav2 0
