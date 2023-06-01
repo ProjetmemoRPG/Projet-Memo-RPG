@@ -1,5 +1,7 @@
 # Projet-Memo-RPG
 
+/!\ : bug lors de la séléction des case des totem : invertion des case x et y.
+
 Pas de bibliotec spétial a installer, juste avoir lecteur multimedia VLC installer sur son pc.
 
 L'executable s'apelle Munchkin_memorie, en référence a un obscure jeux de carte.
@@ -38,3 +40,4 @@ Vous pouvez jouer a 4 ou 2 joueurs
 Vous pouvez choisir la meme race pour plus de compétition ou non
 et également décider de regarder l'ecrant de vos adversaire ou non.
 Bonne chance, avanturiers, que le meilleur gagne.
+
