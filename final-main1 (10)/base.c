@@ -130,46 +130,47 @@ void resetColor(){
 void rules(){
 	char c;
 
-      printf("╔════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╗\n");
-printf("║¤Voici les règles de ce jeu¤  
-printf("║                                                                                                                                                                             ║\n");                                                                                                                                                                                           
-printf("║¤Vous êtes un aventurier à la recherche d'un artefact magique unique                                                                                                        ║\n");
-printf("║  La carte que vous a donnée votre arrière-grand-oncle par alliance vous a mené à ce labyrinthe                                                                           ║\n");
-printf("║  Malheureusement, il semblerait que votre famille soit plus grande qu'estimée car vous apercevez d'autres personnes à différentes entrées                                 ║\n");
-printf("║  Votre mission, si toutefois vous l'acceptez, est de trouver l'artefact correspondant à votre classe (Ranger, Chevalier, Voleur ou Mage) avant les autres                  ║\n");
-printf("║  (PS : pour gagner, vous avez aussi besoin d'un Coffre au trésor, car l'expédition a coûté pas mal d'argent et il faut rembourser vos dettes)                                    ║\n");
-printf("║                                                                                                                                                                             ║\n");
-printf("║                                                                                                                                                                             ║\n");
-printf("║¤Il existe plusieurs types d'artefacts : 
-printf("║                                                                                                                                                                             ║\n");                                                                                                                              
-printf("║  Les artefacts légendaires : (vos objectifs)                                                                                                                                  ║\n");
-printf("║  |E| pour l'Épée de feu, récupérable par le(s) chevalier(s)                                                                                                                     ║\n");
-printf("║  |S| pour le Bâton du familier, récupérable par le(s) ranger(s)                                                                                                                 ║\n");
-printf("║  |G| pour le Grimoire magique, récupérable par le(s) mage(s)                                                                                                                    ║\n");
-printf("║  |D| pour la Dague de sommeil, récupérable par le(s) voleur(s)                                                                                                                   ║\n");
-printf("║                                                                                                                                                                             ║\n");
-printf("║ Les artefacts du labyrinthe :      
-printf("║                                                                                                                                                                             ║\n");                                                                                                                                      
-printf("║ |P| pour le portail, qui permet de se déplacer n'importe où.                                                                                                                   ║\n");
-printf("║ |T| pour les totems SNCF, d'anciennes reliques égarées par une entreprise sombre et obscure au sein de ce labyrinthe permettant d'inverser la position de 2 cases (et vous avec)    ║\n");
+      printf("╔═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╗\n");
+printf("║¤Voici les règles de ce jeu¤                                                                                                                                                       ║\n");
+printf("║                                                                                                                                                                                   ║\n");
+printf("║¤Vous êtes un aventurier à la recherche d'un artefact magique unique                                                                                                               ║\n");
+printf("║  La carte que vous a donnée votre arrière-grand-oncle par alliance vous a mené à ce labyrinthe                                                                                    ║\n");
+printf("║  Malheureusement, il semblerait que votre famille soit plus grande qu'estimée car vous apercevez d'autres personnes à différentes entrées                                         ║\n");
+printf("║  Votre mission, si toutefois vous l'acceptez, est de trouver l'artefact correspondant à votre classe (Ranger, Chevalier, Voleur ou Mage) avant les autres                         ║\n");
+printf("║  (PS : pour gagner, vous avez aussi besoin d'un Coffre au trésor, car l'expédition a coûté pas mal d'argent et il faut rembourser vos dettes)                                     ║\n");
+printf("║                                                                                                                                                                                   ║\n");
+printf("║                                                                                                                                                                                   ║\n");
+printf("║¤Il existe plusieurs types d'artefacts :                                                                                                                                           ║\n");
+printf("║                                                                                                                                                                                   ║\n");
+printf("║  Les artefacts légendaires : (vos objectifs)                                                                                                                                      ║\n");
+printf("║  |E| pour l'Épée de feu, récupérable par le(s) chevalier(s)                                                                                                                       ║\n");
+printf("║  |S| pour le Bâton du familier, récupérable par le(s) ranger(s)                                                                                                                   ║\n");
+printf("║  |G| pour le Grimoire magique, récupérable par le(s) mage(s)                                                                                                                      ║\n");
+printf("║  |D| pour la Dague de sommeil, récupérable par le(s) voleur(s)                                                                                                                    ║\n");
+printf("║                                                                                                                                                                                   ║\n");
+printf("║ Les artefacts du labyrinthe :                                                                                                                                                     ║\n");
+printf("║                                                                                                                                                                                   ║\n");
+printf("║ |P| pour le portail, qui permet de se déplacer n'importe où.                                                                                                                      ║\n");
+printf("║ |T| pour les totems SNCF, d'anciennes reliques égarées par une entreprise sombre et obscure au sein de ce labyrinthe permettant d'inverser la position de 2 cases (et vous avec)  ║\n");
 printf("║ |C| pour le coffre au trésor, l'un des objets nécessaires à votre quête, car comme tout aventurier, vous aimez l'argent                                                           ║\n");
-printf("║                                                                                                                                                                             ║\n");
-printf("║¤Néanmoins, tous ces trésors sont gardés par des monstres.                                                                                                                       ║\n");
-printf("║  Vous avez pensé à vous équiper de tout le nécessaire pour les vaincre, mais chaque monstre a une faiblesse particulière et vous ne pouvez porter qu'une arme à la fois.║\n");
-printf("║  Voici la liste des monstres :                                                                                                                                                 ║\n");
-printf("║  |B| pour les Basilics, au regard pétrifiant, pouvant être battus par un bouclier réfléchissant                                                                                    ║\n");
-printf("║  |Z| pour les Zombies, morts-vivants très sensibles au feu, pouvant être vaincus avec une torche                                                                                    ║\n");
-printf("║  |T| pour les trolls, de gros monstres à la peau solide, pouvant être vaincus par une hache de pierre                                                                              ║\n");
-printf("║  |H| pour les harpies, des créatures des enfers qu'il ne faut pas approcher, pouvant être vaincues par un arc                                                                            ║\n");
-printf("║                                                                                                                                                                             ║\n");
-printf("║                                                                                                                                                                             ║\n");
-printf("║¤Vous pouvez jouer à 2 ou 4 joueurs.                                                                                                                                           ║\n");
-printf("║¤Vous pouvez choisir la même classe pour plus de compétition.                                                                                                             ║\n");
-printf("║¤Vous pouvez ne pas regarder l'écran de vos adversaires.                                                                                                              ║\n");
-printf("║                                                                                                                                                                             ║\n");                                                                                            
-printf("║¤Bonne chance, aventuriers, que le meilleur gagne ¤                                                                                                                            ║\n");
-printf("║                                                                                                                                                                             ║\n");                                                                                                                                                                                                                 
-printf("╚═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝\n");printf("Appuyer sur n'importe quel touche pour continuer ou sur Q pour quitter \n");
+printf("║                                                                                                                                                                                   ║\n");
+printf("║¤Néanmoins, tous ces trésors sont gardés par des monstres.                                                                                                                         ║\n");
+printf("║  Vous avez pensé à vous équiper de tout le nécessaire pour les vaincre, mais chaque monstre a une faiblesse particulière et vous ne pouvez porter qu'une arme à la fois.          ║\n");
+printf("║  Voici la liste des monstres :                                                                                                                                                    ║\n");
+printf("║  |B| pour les Basilics, au regard pétrifiant, pouvant être battus par un bouclier réfléchissant                                                                                   ║\n");
+printf("║  |Z| pour les Zombies, morts-vivants très sensibles au feu, pouvant être vaincus avec une torche                                                                                  ║\n");
+printf("║  |T| pour les trolls, de gros monstres à la peau solide, pouvant être vaincus par une hache de pierre                                                                             ║\n");
+printf("║  |H| pour les harpies, des créatures des enfers qu'il ne faut pas approcher, pouvant être vaincues par un arc                                                                     ║\n");
+printf("║                                                                                                                                                                                   ║\n");
+printf("║                                                                                                                                                                                   ║\n");
+printf("║¤Vous pouvez jouer à 2 ou 4 joueurs.                                                                                                                                               ║\n");
+printf("║¤Vous pouvez choisir la même classe pour plus de compétition.                                                                                                                      ║\n");
+printf("║¤Vous pouvez ne pas regarder l'écran de vos adversaires.                                                                                                              		    ║\n");
+printf("║                                                                                                                                                                                   ║\n"); 
+printf("║¤Bonne chance, aventuriers, que le meilleur gagne ¤                                                                                                                                ║\n");
+printf("║                                                                                                                                                                                   ║\n"); 
+printf("╚═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝\n");
+printf("Appuyer sur n'importe quel touche pour continuer ou sur Q pour quitter \n");
 	scanfChar(&c);
 }
 	
